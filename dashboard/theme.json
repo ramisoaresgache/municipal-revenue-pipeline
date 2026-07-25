@@ -1,0 +1,15 @@
+{
+  "name": "Municipal Revenue",
+  "dataColors": [
+    "#6C63FF",
+    "#00B8A9",
+    "#FFB547",
+    "#E76F51",
+    "#4EA8DE",
+    "#8D99AE"
+  ],
+  "background": "#F5F7FB",
+  "foreground": "#172033",
+  "tableAccent": "#6C63FF"
+}
+

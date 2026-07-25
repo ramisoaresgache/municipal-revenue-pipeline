@@ -1,0 +1,24 @@
+Total Emitido =
+SUM ( revenue_monthly[issued_amount] )
+
+Total Recaudado =
+SUM ( revenue_monthly[collected_amount] )
+
+Deuda Pendiente =
+SUM ( revenue_monthly[debt_amount] )
+
+Porcentaje de Cobrabilidad =
+DIVIDE ( [Total Recaudado], [Total Emitido], 0 )
+
+Cuentas Procesadas =
+SUM ( revenue_monthly[accounts] )
+
+Variación Mensual Recaudación =
+VAR MesAnterior =
+    CALCULATE (
+        [Total Recaudado],
+        DATEADD ( revenue_monthly[period], -1, MONTH )
+    )
+RETURN
+    DIVIDE ( [Total Recaudado] - MesAnterior, MesAnterior )
+
