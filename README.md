@@ -106,6 +106,22 @@ El dashboard propuesto contiene:
 2. Análisis de cobrabilidad y deuda.
 3. Comparación entre recaudación real y proyectada.
 
+El archivo final puede descargarse desde
+[`dashboard/municipal-revenue-dashboard.pbix`](dashboard/municipal-revenue-dashboard.pbix).
+
+### Resumen ejecutivo
+
+![Dashboard de resumen ejecutivo](docs/images/resumen-ejecutivo.png)
+
+### Forecasting
+
+![Dashboard de forecasting](docs/images/forecasting.png)
+
+### Demo
+
+[Abrir el reporte compartido](https://mvl365-my.sharepoint.com/:u:/g/personal/ramiro_godino_vicentelopez_gov_ar/IQCIeo5ulbZ2R49SUsRtUbIDAQSZtD0KdRoecNbs1ALKuHo?e=AvExo2)
+
+
 ## Pruebas
 
 ```bash
